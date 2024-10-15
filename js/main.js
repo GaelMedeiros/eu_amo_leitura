@@ -16,6 +16,8 @@ function creatNavebar(){
     </nav>`
     Element.innerHTML = navbar
 
+    
+
 }
 
 
