@@ -14,11 +14,11 @@ function creatNavebar(){
         </ul>
 
     </nav>`
-    Element.innerHTML = navbar
+  element.innerHTML = navbar
 
     
 
 }
 
 
-
+creatNavebar()
