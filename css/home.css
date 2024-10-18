@@ -87,7 +87,7 @@ header {
 
 .contact-map,
 .contact-form{
-    width: 50%;
+    width: 100%;
     padding: 40px;
 }
 
@@ -99,4 +99,21 @@ header {
 .contact-map p{
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+@media (max-width:400px){
+    .header-content{
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (min-width:760px){
+    .header-content{
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+    }
+
 }
